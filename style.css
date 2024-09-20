@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+  margin-top: 50px;
+}
+img {
+  border-radius: 90px;
+}
+
+h1,p{
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 3;
+}
+.Ubication {
+  color: rgb(155, 240, 69);
+}
+
+main {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 380px;
+  height: 600px;
+  border-radius: 20px;
+  background-color: rgb(30, 28, 28);
+  margin: auto;
+}
+
+.container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: sans-serif;
+
+}
+
+button {
+    
+  color: white;
+  font-weight: 750;
+  cursor: pointer;
+  background-color: #544c4c;
+  margin: 5px;
+  width: 320px;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: none;
+}
+
+button:hover {
+  background-color: rgb(155, 240, 69);
+}
+
+.avatar {
+  margin: 0;
+  color: black;
+  margin-top: 0;
+}
+
+.attribution{ text-align: center;
+color: white;
+margin: 10px;}
+
+
+/*RESPONSIVE DESIGN*/
+@media (max-width: 600px) {
+    .container {
+      width: 90%;
+      padding: 10px;
+      margin: 25px;
+    }
+  
+    .container img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    button {
+      padding: 8px;
+      margin-top: 20 0 0 20;
+    }
+  }
