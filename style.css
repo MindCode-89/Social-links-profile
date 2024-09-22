@@ -64,7 +64,8 @@ button:hover {
 
 .attribution{ text-align: center;
 color: white;
-margin: 10px;}
+margin: 10px;
+text-decoration: none;}
 
 
 /*RESPONSIVE DESIGN*/
